@@ -7,6 +7,7 @@ CREATE OR REPLACE API INTEGRATION zero_to_snow_git_api
   ENABLED = TRUE;
 
 -- 2. Git Repository を作成（learning 内に配置）
+CREATE OR REPLACE DATABASE snowflake_learning_db;
 USE DATABASE snowflake_learning_db;
 create schema public;
 
